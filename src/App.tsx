@@ -2,7 +2,9 @@ import { useState, useEffect } from "react";
 import Navbar from "@/components/navbar";
 import { SelectedPage } from "@/utils/types";
 import Home from "@/components/home";
-import Benefits from "./components/benefits";
+import Benefits from "@/components/benefits";
+import OurClasses from "@/components/ourClasses";
+
 
 function App() {
     const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
@@ -33,6 +35,7 @@ function App() {
             />
             <Home setSelectedPage={setSelectedPage} />
             <Benefits setSelectedPage={setSelectedPage} />
+            <OurClasses setSelectedPage={setSelectedPage} />
         </div>
     );
 }

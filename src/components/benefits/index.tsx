@@ -138,11 +138,21 @@ const Benefits = ({ setSelectedPage }: Props) => {
 
             {/* BUTTON */}
             <div className="relative mt-16">
-              <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
+              <motion.div
+                className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ delay: 0.3, duration: 0.5 }}
+                variants={{
+                  hidden: { opacity: 0, x: 50 },
+                  visible: { opacity: 1, x: 0 },
+                }}
+              >
                 <ActionButton setSelectedPage={setSelectedPage}>
                   Join Now
                 </ActionButton>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
