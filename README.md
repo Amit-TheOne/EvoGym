@@ -72,4 +72,4 @@ npm run preview
 - `prettier-plugin-tailwindcss`: ^0.5.12
 
 
-#### Made with 3AM Coffee ☕️ by [Amit Dewangan](www.github.com/Amit-TheOne)
+#### Made with 3AM Coffee ☕️ by Amit Dewangan
