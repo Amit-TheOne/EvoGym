@@ -12,34 +12,32 @@ import Class from "./Class";
 const classes: Array<ClassType> = [
   {
     name: "Weight Training Classes",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "Build strength and muscle with our dynamic weight training sessions, guided by expert trainers to ensure proper form and progress.",
     image: image1,
   },
   {
     name: "Yoga Classes",
+    description: "Enhance flexibility, reduce stress, and improve mental clarity with our relaxing yoga sessions for all levels.",
     image: image2,
   },
   {
     name: "Ab Core Classes",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "Strengthen your core and sculpt your abs with targeted exercises designed to improve stability and posture.",
     image: image3,
   },
   {
     name: "Adventure Classes",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: image4,
   },
   {
     name: "Fitness Classes",
+    description: "Join our diverse fitness classes to boost endurance, burn fat, and achieve your overall health and fitness goals.",
     image: image5,
   },
   {
-    name: "Training Classes",
+    name: "Zumba Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Shake, groove, and burn calories in our high-energy Zumba classes. Enjoy a fun, dance-based workout set to infectious music that keeps you moving and motivated.",
     image: image6,
   },
 ]
@@ -68,10 +66,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
             <p className="py-5">
-              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-              tellus quam porttitor. Mauris velit euismod elementum arcu neque
-              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-              enim mattis odio in risus nunc.
+              Ready to level up your fitness? Explore a wide variety of dynamic classes tailored to suit every fitness level and goal. From high-intensity interval training and strength-building circuits to yoga and dance cardio, EVO GYM has something for everyone. Check out our schedule and find your perfect fit!
             </p>
           </div>
         </motion.div>

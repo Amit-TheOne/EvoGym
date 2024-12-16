@@ -46,9 +46,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
           </HText>
           <p className="my-5">
-            Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
-            sapien vel rhoncus. Placerat at in enim pellentesque. Nulla
-            adipiscing leo egestas nisi elit risus sit. Nunc cursus sagittis.
+           We're ready to help you crush your goals and feel your best. Don't wait another day to take charge of your health. Join EVO GYM now and experience a world-class fitness experience. Contact us today!
           </p>
         </motion.div>
 

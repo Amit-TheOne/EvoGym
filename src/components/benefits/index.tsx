@@ -15,19 +15,19 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+      "Experience top-notch equipment and innovative workout spaces designed to elevate your fitness journey.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "100's of Diverse Classes",
     description:
-      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+      "Choose from a wide range of classes tailored to every fitness level, from high-intensity training to relaxing yoga.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
     description:
-      "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+      "Get guided by certified professionals dedicated to helping you reach your goals and unlock your true potential.",
   },
 ];
 
@@ -129,10 +129,10 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio obcaecati soluta maxime tempora expedita vel aliquid sapiente laboriosam adipisci officia ut illum recusandae, quis dolore placeat est ipsam non minus nostrum. Inventore at voluptate necessitatibus iusto pariatur incidunt esse, quos atque perferendis quisquam? Maiores vitae aliquam amet, eaque doloribus facere blanditiis, consequuntur ipsum, rerum fugiat nihil et itaque saepe officiis tempore ratione perferendis? Odit nisi libero accusamus vel reprehenderit incidunt!
+                Join the global fitness movement at EVO GYM and become part of something extraordinary! With members from all walks of life, we pride ourselves on creating a welcoming and inclusive community that celebrates progress and supports individual goals. Our success stories range from beginners taking their first steps toward fitness to seasoned athletes pushing their limits. At EVO GYM, you're never alone on your journey—our community and trainers are here to uplift and motivate you every step of the way.
               </p>
               <p className="mb-5">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem quas, accusamus corporis eius ratione quibusdam nesciunt illum ea, quia impedit labore magnam temporibus nisi neque possimus voluptate, consectetur quae! Cupiditate, repellendus adipisci quia laborum deserunt laboriosam, magni sunt corporis vero praesentium iusto rem ipsam suscipit, alias velit a quae. Est nam ipsa ullam sequi doloremque illum vero laborum consequuntur ut, aspernatur deleniti nulla, veniam maiores?
+              With flexible membership plans tailored to suit diverse needs, EVO GYM makes it easy to commit to your fitness journey. From group challenges that spark camaraderie to personal achievements that inspire, every moment at EVO is a step toward a healthier, happier you. Be part of the millions who have transformed their lives with us. Join EVO GYM today and start your success story!
               </p>
             </motion.div>
 

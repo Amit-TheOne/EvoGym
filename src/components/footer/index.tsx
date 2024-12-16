@@ -7,17 +7,15 @@ const Footer = () => {
         <div className="mt-8 basis-2/3 md:mt-0">
           <img alt="logo" src={Logo} />
           <p className="my-5 md:pr-52">
-            Lorem vitae ut augue auctor faucibus eget eget ut libero. Elementum
-            purus et arcu massa dictum condimentum. Augue scelerisque iaculis
-            orci ut habitant laoreet. Iaculis tristique.
+            We're committed to help you reach your fitness goals with expert guidance, top-tier facilities, and a supportive community.
           </p>
           <p>© Evogym All Rights Reserved.</p>
         </div>
 
         <div className="mt-8 basis-1/4 md:mt-0 justify-end">
           <h4 className="font-bold">Contact Us</h4>
-          <p className="mt-5">Tempus metus mattis risus volutpat egestas Tempus metus.</p>
-          <p>(333)425-6825</p>
+          <p className="mt-5">75 The Crescent London SW10 8DY, United Kingdom</p>
+          <p>+44 7972971918 </p>
         </div>
       </div>
     </footer>

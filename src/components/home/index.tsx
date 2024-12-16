@@ -45,7 +45,7 @@ const Home = ({ setSelectedPage }: Props) => {
             </div>
 
             <p className="mt-8 text-sm">
-              Unrivaled Gym. Unparalleled Training Fitness Classes. World Class Studios to get the Body Shapes That you Dream of.. Get Your Dream Body Now.
+              Dream Big. Train Hard. Achieve More. We're redefining fitness with state-of-the-art equipment, elite training programs, and world-class studios designed to transform your body and mind. Your dream body awaits, so begin your journey today!
             </p>
           </motion.div>
 
